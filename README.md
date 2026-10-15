@@ -4,11 +4,13 @@ A Python web app for planning oblique camera count (OCC) aerial wildlife surveys
 built as part of Save the Elephants' Aerial Survey Reform work in Kenya.
 
 ## What it does
-- **Camera geometry:** oblique footprint and strip-width calculations
-- **Survey planning:** park and region boundaries, survey design and presets
-- **Flight-window support:** solar angle and climate considerations
-- **Cost estimation** for survey scenarios
-- **Literature library:** curated references on aerial surveys and AI-assisted detection
+- **Guided planner:** step-by-step OCC survey design
+- **Survey geometry:** oblique camera footprint and strip-width calculations
+- **Survey area:** upload a boundary (GeoJSON, KML, KMZ or CSV) and compute its geodesic area
+- **Region & season:** 20-year rainfall climatology (Open-Meteo API) and solar elevation to plan flight windows
+- **Cost comparison:** OCC image-interpretation effort vs rear-seat observer (RSO) survey costs
+- **News & papers:** live feed of recent aerial-survey and detection research (OpenAlex API)
+- **African parks:** reference data for key protected areas
 
 ## Built with
 Python · Streamlit · pandas · NumPy · Altair · Pillow
